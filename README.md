@@ -14,6 +14,7 @@ Todo API; FastAPI kullanarak yazılmış bir backend projesidir. Veritabanı ola
 * Yeni bir kullanıcı oluşturulursa, hesabını doğrulaması gerekir. Bunun için oluşturulduğu anda hesabına bir doğrulama bağlantısı gönderilir.
 * Kullanıcı İki adımlı doğrulamayı(TFA) açmışsa, login denemesinden sonra mail adresine kod gönderilir. O kodu ilgili endpoint ile girerek giriş sağlayabilir.
 * Kullanıcının görevlerinin, tahmini bitiş süresi eğer geçmiş ise (12 saatte bir kontrol edilir) kullanıcıya hatırlatma maili gönderilir.
+* SMTP server olarak Gmail kullanılabilir. Kullanım ve konfigürasyonun nasıl yapılacağını öğrenmek için [buradaki](https://www.youtube.com/watch?v=RlfyGCxuNVI) kaynağa bakabilirsin.
 
 ## Kullanılan Teknolojiler/Kütüphaneler
 | Kütüphane   | Açıklama | Kullanım Alanı |
