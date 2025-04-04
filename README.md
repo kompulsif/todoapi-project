@@ -1,6 +1,6 @@
 # Python Todo API
 
-Todo API; FastAPI kullanarak yazılmış bir backend projesidir. Veritabanı olarak PostgreSQL, Caching için Redis ve arka plan işlemleri için Celery kullanır.
+Todo API; FastAPI kullanarak yazılmış bir backend projesidir. Veritabanı olarak PostgreSQL, Caching için Redis ve arka plan işlemleri için Celery ve veritabanı iletişimi için SQLAlchemy kullanır.
 
 
 ## Özellikler
