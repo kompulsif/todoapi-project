@@ -1,0 +1,109 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyre type checker
+.pyre/
+
+# Pytype
+.pytype/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+pylint-report.txt
+pylint-global.txt
+
+# Environments
+.env
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs
+*.log
+logs/
+!logs/.gitkeep
+*.sqlite3
+
+# Redis dump
+dump.rdb
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local database files
+*.db
+*.sqlite
+
+# Docker
+*.pid
+*.tar
+*.gz
+docker-compose.override.yml
+
+# GitHub Codespaces
+*.code-workspace
+
+# Optional FastAPI specific ignores
+__init__.pyc
+app/__init__.pyc

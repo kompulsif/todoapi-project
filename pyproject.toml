@@ -1,0 +1,46 @@
+[project]
+name = "todoapi"
+version = "0.1.0"
+description = "FastAPI kullanarak olusturulmus Todo API projesidir."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "celery>=5.4.0",
+    "fastapi[standard]>=0.115.11",
+    "flask>=3.1.0",
+    "flask-cors>=5.0.1",
+    "flask-sqlalchemy>=3.1.1",
+    "flower>=2.0.1",
+    "gevent>=24.11.1",
+    "passlib[bcrypt]>=1.7.4",
+    "psycopg2>=2.9.10",
+    "pydantic>=2.10.6",
+    "pydantic-settings>=2.8.1",
+    "pyjwt>=2.10.1",
+    "python-dotenv>=1.0.1",
+    "python-jose[cryptography]>=3.4.0",
+    "python-json-logger>=3.2.1",
+    "python-multipart>=0.0.20",
+    "redis>=5.2.1",
+    "setuptools>=78.1.0",
+    "sqlalchemy>=2.0.38",
+    "virtualenv>=20.30.0",
+]
+
+[dependency-groups]
+dev = [
+    "celery-types>=0.23.0",
+    "ruff>=0.9.10",
+    "types-passlib>=1.7.7.20250326",
+    "types-python-jose>=3.4.0.20250224",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+ignore = [
+    "F403", # frm x import * kullanimlarini ignore eder
+    "E711" # != None ifadelerine karsi is not None olarak uyarmasini ignore eder
+]
