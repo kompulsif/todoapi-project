@@ -28,7 +28,7 @@ class Env(BaseSettings):
     SMTP_PORT: int
     SMTP_USER: str
     SMTP_PASSWORD: str
-    SITE_DOMAIN: str
+    SITE_BASE_ADDR: str
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
@@ -72,4 +72,4 @@ SMTP_PORT = env.SMTP_PORT
 SMTP_USER = env.SMTP_USER
 SMTP_PASSWORD = env.SMTP_PASSWORD
 
-SITE_DOMAIN = env.SITE_DOMAIN
+SITE_BASE_ADDR = env.SITE_BASE_ADDR

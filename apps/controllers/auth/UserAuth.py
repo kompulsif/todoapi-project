@@ -23,7 +23,7 @@ from config import (
     JTI_REDIS_DB,
     JWT_SECRET_KEY,
     REFRESH_TOKEN_EXP,
-    SITE_DOMAIN,
+    SITE_BASE_ADDR,
     TFA_LOGIN_REDIS_DB,
     TFA_SECRET_KEY,
     TOKEN_ALGORITHM,
@@ -228,7 +228,7 @@ class UserAuthController:
         Controller tarafinda aktivasyon mail gonderim islemini tetikler
         """
         email, username, token = await create_verify_token_with_user_info(user_id)
-        verify_link = SITE_DOMAIN + "/auth/verify/" + token
+        verify_link = SITE_BASE_ADDR + "/auth/verify/" + token
         send_activate_account_mail.apply_async(args=(verify_link, email, username))
         return JSONResponse(
             {"detail": "Your account is not verified! The verification link has been sent to your mail address"},
