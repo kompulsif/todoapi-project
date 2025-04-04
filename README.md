@@ -70,6 +70,7 @@ Login işlemlerinde; `/user/login/` endpoint'ine istek eğer TFA ile yapılırsa
 
 Bundan sonra `/auth/tfa/login` endpointine belirtilmiş olan body bilgisi ve tfa çerezi ile birlikte istek atıldığında, doğrulama işleminden geçtikten sonra, giriş sağlanıp; access token ve refresh token verilecektir.
 Kullanıcı oluşturma isteği hariç her istekte Authorization Header bildirilmelidir. Detaylı kullanım için;
+
 [![Video](/readme_imgs/video.PNG)](https://streamable.com/0cfzfw)
 
 ## Kurulum
