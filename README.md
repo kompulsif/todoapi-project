@@ -16,6 +16,15 @@ Todo API; FastAPI kullanarak yazılmış bir backend projesidir. Veritabanı ola
 * Kullanıcının görevlerinin, tahmini bitiş süresi eğer geçmiş ise (12 saatte bir kontrol edilir) kullanıcıya hatırlatma maili gönderilir.
 * SMTP server olarak Gmail kullanılabilir. Kullanım ve konfigürasyonun nasıl yapılacağını öğrenmek için [buradaki](https://www.youtube.com/watch?v=RlfyGCxuNVI) kaynağa bakabilirsin.
 
+#### Hesap Doğrulama Mail Görünümü
+![Verify Account](/readme_imgs/verify_account_mail.PNG)
+
+#### TFA Mail Görünümü
+![TFA](/readme_imgs/tfa_mail.PNG)
+
+#### Görev Hatırlatıcı Mail Görünümü
+![Task Reminder](/readme_imgs/overdue_mail.PNG)
+
 ## Kullanılan Teknolojiler/Kütüphaneler
 | Kütüphane   | Açıklama | Kullanım Alanı |
 |-------------|----------|----------------|
