@@ -34,7 +34,7 @@ task_routes = {
 beat_schedule = {
     "user_task_check_beat": {
         "task": "apps.celery_app.tasks.email.tasks.check_end_dates",
-        "schedule": timedelta(seconds=45),
+        "schedule": timedelta(hours=12),
         "options": {"priority": 5},
     }
 }
