@@ -104,7 +104,7 @@ def send_todo_estimate_mail(self, user_id: int, status_id: int, task_name: str, 
     """
     try:
         status = asyncio.run(StatusController.get_status_info(user_id, status_id))
-        if status["default_status"]:
+        if not status["default_status"]:
             user = asyncio.run(get_active_user(user_id))
             try:
                 mail_controller = MailController(user.email, user.visibility_name)
