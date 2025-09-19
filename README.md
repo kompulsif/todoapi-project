@@ -112,6 +112,44 @@ Environment(.env) dosyadaki configürasyonları tamamlayın. Redis ve PostgreSQL
 ### Celery Beat
 * `python -m celery -A apps.celery_app.app beat --loglevel=info`
 
+## Kaynaklar
+
+### FastAPI
+- https://fastapi.tiangolo.com/tutorial/dependencies/dependencies-with-yield/#always-raise-in-dependencies-with-yield-and-except  
+- https://fastapi.tiangolo.com/tutorial/#run-the-code  
+- https://fastapi.tiangolo.com/advanced/  
+- https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/  
+
+### SQLAlchemy
+- https://docs.sqlalchemy.org/en/20/orm/cascades.html#delete  
+- https://docs.sqlalchemy.org/en/20/orm/quickstart.html#make-changes  
+- https://docs.sqlalchemy.org/en/20/faq/sessions.html#faq-session-rollback  
+- https://docs.sqlalchemy.org/en/20/orm/basic_relationships.html#one-to-many  
+
+### StackOverflow
+- https://stackoverflow.com/questions/78628938/trapped-error-reading-bcrypt-version-v-4-1-2  
+- https://stackoverflow.com/questions/5022066/how-to-serialize-sqlalchemy-result-to-json  
+- https://stackoverflow.com/questions/77362216/add-startup-shutdown-handlers-to-fastapi-app-with-lifespan-api  
+- https://stackoverflow.com/questions/18807322/sqlalchemy-foreign-key-relationship-attributes  
+- https://stackoverflow.com/questions/19595702/using-html-templates-to-send-emails-in-python  
+- https://stackoverflow.com/questions/28907831/how-to-use-jti-claim-in-a-jwt  
+- https://stackoverflow.com/questions/50144628/python-logging-into-file-as-a-dictionary-or-json  
+- https://stackoverflow.com/questions/25826639/how-to-manually-mark-a-celery-task-as-done-and-set-its-result  
+
+### Medium
+- https://medium.com/@blogshub4/how-to-use-hashed-password-in-python-9de609303e75  
+- https://medium.com/@mandyranero/one-to-many-many-to-many-and-one-to-one-sqlalchemy-relationships-8415927fe8aa  
+- https://gh0stfrk.medium.com/token-based-authentication-with-fastapi-7d6a22a127bf  
+- https://medium.com/featurepreneur/flower-celery-monitoring-tool-50fba1c8f623  
+- https://medium.com/@kevinkoech265/jwt-authentication-in-fastapi-building-secure-apis-ce63f4164eb2  
+- https://medium.com/@kevinkoech265/a-guide-to-connecting-postgresql-and-pythons-fast-api-from-installation-to-integration-825f875f9f7d  
+
+### Celery
+- https://celery.school/  
+
+### YouTube
+- https://www.youtube.com/watch?v=0A_GCXBCNUQ  
+
 ## Lisans
 Bu proje [MIT Lisansı](./LICENSE) ile lisanslanmıştır.
 
